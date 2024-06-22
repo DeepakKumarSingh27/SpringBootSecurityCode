@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+<head>
+<meta charset="ISO-8859-1">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepak's Homepage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 2em 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        .contact-info, .content {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .contact-info h2, .content h2, .content h3 {
+            color: #4CAF50;
+        }
+        .contact-info p, .content p, .content ul, .content ol {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .content ul, .content ol {
+            padding-left: 20px;
+        }
+        .content ul li, .content ol li {
+            margin-bottom: 10px;
+        }
+        .footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div class="header">
+        <h1>Welcome to Deepak's Homepage</h1>
+    </div>
+    <div class="container">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Name:</strong> Deepak</p>
+            <p><strong>Mobile:</strong> 7367828168</p>
+            <p><strong>Email:</strong> coderdeepakSingh@gmail.com</p>
+        </div>
+        <div class="content">
+            <h2>About Java Full Stack Development</h2>
+            <p>Java Full Stack Development is a comprehensive skill set that involves building end-to-end web applications. A Full Stack Developer works on both the front-end and back-end parts of an application.</p>
+            <h3>Key Technologies</h3>
+            <ul>
+                <li><strong>Front-end:</strong> HTML, CSS, JavaScript, Angular, React</li>
+                <li><strong>Back-end:</strong> Java, Spring Boot, Hibernate</li>
+                <li><strong>Database:</strong> MySQL, PostgreSQL, MongoDB</li>
+                <li><strong>Version Control:</strong> Git, GitHub</li>
+                <li><strong>Tools:</strong> Maven, Docker, Jenkins</li>
+            </ul>
+            <h3>Why Learn Java Full Stack?</h3>
+            <p>Java Full Stack Development offers numerous benefits including a solid understanding of both client-side and server-side development, the ability to manage and maintain a full project, and increased job opportunities in the tech industry.</p>
+            <h3>Getting Started</h3>
+            <p>To start your journey in Java Full Stack Development, you can follow these steps:</p>
+            <ol>
+                <li>Learn the basics of HTML, CSS, and JavaScript.</li>
+                <li>Master Java programming language.</li>
+                <li>Get familiar with front-end frameworks like Angular or React.</li>
+                <li>Understand back-end frameworks like Spring Boot.</li>
+                <li>Practice building full stack projects.</li>
+            </ol>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2024 Deepak's Homepage</p>
+    </div>
+    </section>
+</body>
+</html>
